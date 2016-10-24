@@ -9,21 +9,20 @@
 *
 * It should be a String.
 **/
-
-
-
+var firstName = "Gwyneth"
+var lastName = "Raquepo"
+var birthPlace = "Philipphines"
 /**
 * #2
 * Variables with a Number as their value
 *
 * Declare variables named `favoriteNumber`, `currentYear`,
-* and `thatOnePrinceSong`.
-*
+* and `thatOnePrinceSong`.*
 * Their values should be a Number
 **/
-
-
-
+var favoriteNumber = "2"
+var currentYear = "2016"
+var thatOnePrinceSong = "1984"
 /**
 * #3
 * Variables with Boolean values
@@ -32,46 +31,47 @@
 * and `isHappyCoding`
 *
 * Their values should be a Boolean
-**/
-
-
-
+ **/
+var isDaytime = "true"
+var isLeftHanded = "false"
+var inHawaii = "true"
+var isHappyCoding = "true"
 /**
 * #4
 * Variables with null
 *
 * Declare variables named `enrolledAtDevLeague` and `completedFridayPrep`
-*
+ *
 * Their values should be a Null value
 **/
-
+var enrolledatDevLeague
 
 
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
 *
-* Declare a variable named `westCoast` which is an Array.
+ * Declare a variable named `westCoast` which is an Array.
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
-**/
-
+ra**/
+var westCoast = ["California", "Oregon", "Nevada", "Washington", "Hawaii", "Alaska"]
 
 
 /**
 * #5b
 * Variables with an Array for it's value. This Array will contain:
-*
+ *
 * Declare a variable named `evenNumbers` which is an Array.
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = ["2", "4", "6","8","10", "12", "14", "16","18","20"]
 
 
 /**
 * #6a Arithmetic
-* Variables with the outcome of an arithmetic operation:
+ * Variables with the outcome of an arithmetic operation:
 *
 * Declare a variable named `sumOfNumbers` which is a Number. This Number
 * contains the result of performing an arithmetic operation on two numbers.
@@ -79,8 +79,8 @@
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
-
+var sumOfNumbers;
+sumOfNumbers = 2+6+7-1/7*2;
 
 
 /**
@@ -98,7 +98,7 @@
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
+var isEqual = "Tacocat" == "tacocat"
 
 
 /**
@@ -115,8 +115,8 @@
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
-
+var generalContainer;
+generalContainer = "
 
 
 /**
