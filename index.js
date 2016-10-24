@@ -117,6 +117,11 @@ var isEqual = "Tacocat" == "tacocat"
 */
 var generalContainer;
 generalContainer = ""
+generalContainer = ""
+generalContainer = ""
+generalContainer = ""
+generalContainer = ""
+generalContainer = ""
 
 
 /**
@@ -130,13 +135,12 @@ generalContainer = ""
 *
 * Store the return value to a variable named `jumpResult`
 **/
+var jumpResult
 function jump (height){
-	return "You jumped" + height +"feet high!";
+	jumpResult = "You jumped " +height+" feet high!";
+	return jumpResult;
 }
 jump(9)
-var jumpResult = jump(9)
-
-
 /**
 * #7b
 * Declare Functions
@@ -146,4 +150,8 @@ var jumpResult = jump(9)
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+function cook(ingredient1, ingredient2,recipeName){
+	return ingredient1+ " and "+ ingredient2+ " make "+ " a "+ recipeName+ "!";
+	}
+	cook("Tomatoes", "Cheese", "Pizza"); 
+}
