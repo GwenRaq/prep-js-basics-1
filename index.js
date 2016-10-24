@@ -9,10 +9,9 @@
 *
 * It should be a String.
 **/
-
-
-
-
+var firstName = "Gwyneth"
+var lastName = "Raquepo"
+var birthPlace = "Philipphines"
 /**
 * #2
 * Variables with a Number as their value
@@ -21,10 +20,9 @@
 * and `thatOnePrinceSong`.*
 * Their values should be a Number
 **/
-
-
-
-
+var favoriteNumber = "2"
+var currentYear = "2016"
+var thatOnePrinceSong = "1984"
 /**
 * #3
 * Variables with Boolean values
@@ -34,11 +32,10 @@
 *
 * Their values should be a Boolean
  **/
-
-
-
-
-
+var isDaytime = "true"
+var isLeftHanded = "false"
+var inHawaii = "true"
+var isHappyCoding = "true"
 /**
 * #4
 * Variables with null
@@ -47,8 +44,8 @@
  *
 * Their values should be a Null value
 **/
-
-
+var enrolledatDevLeague;
+var completedFridayPrep;
 
 /**
 * #5a
@@ -58,7 +55,7 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 ra**/
-
+var westCoast = ["California", "Oregon", "Nevada", "Washington", "Hawaii", "Alaska"]
 
 
 /**
@@ -69,7 +66,7 @@ ra**/
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = ["2", "4", "6","8","10", "12", "14", "16","18","20"]
 
 
 /**
@@ -82,7 +79,8 @@ ra**/
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
+var sumOfNumbers;
+sumOfNumbers = 2+6+7-1/7*2;
 
 
 /**
@@ -100,7 +98,7 @@ ra**/
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
+var isEqual = "Tacocat" == "tacocat"
 
 
 /**
@@ -117,7 +115,8 @@ ra**/
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
+var generalContainer;
+generalContainer = ""
 
 
 /**
@@ -131,7 +130,11 @@ ra**/
 *
 * Store the return value to a variable named `jumpResult`
 **/
-
+function jump (height){
+	return "You jumped" + height +"feet high!";
+}
+jump(9)
+var jumpResult = jump(9)
 
 
 /**
